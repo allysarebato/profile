@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+    color: white;
+}
+/* sa navbar */
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 9rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+nav a:hover,
+nav a.active{
+    color: skyblue;
+    border-bottom: 3px solid white;
+}
+
+/* sa allysa */
+.logo{
+    font-size: 3rem;
+    color: skyblue;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo :hover{
+    transform: scale(1.1);
+}
+/* section */
+.section{
+    min-width: 100vh;
+    padding: 5rem 9% 5rem;
+}
+/* sa picture */
+.home-img{
+    border-radius: 50%;
+}
+.home-img img{
+    width: 20vm;
+    border-radius: 50%;
+    box-shadow: 0 0 50px skyblue;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.home-img img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px red;
+}
+/* sa icons */
+.social-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    transition: 0.3s ease;
+    color: aqua;
+}
+.social-icon a:hover{
+    background-color: red;
+    transform: scale(1.3) translateY(-5px);
+}

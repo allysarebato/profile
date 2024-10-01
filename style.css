@@ -1,0 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #e5fdee;
+    color: #333;
+}
+
+/* Navbar */
+/* header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    background-color: #fff4e0;
+}
+
+header nav ul li {
+    margin-right: 20px; 
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+} */
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff4e0;
+    text-align: center;
+}
+
+.hero img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.hero-content h1 span {
+    color: #e88e45;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #ffedd5;
+}
+
+.about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about-content {
+    max-width: 500px;
+}
+
+/* Project Section */
+.projects {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item h3 {
+    font-size: 2rem;
+}
+
+.project-item {
+    background-color: #ffedd5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px;
+    background-color: #fff4e0;
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
